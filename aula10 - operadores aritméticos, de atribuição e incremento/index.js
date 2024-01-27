@@ -107,7 +107,7 @@ let contador6 = 0;
 contador6 += 2; // É o mesmo que: contador6 = contador6 + 2; Resultado = 2.
 contador6 += 2; // Resultado = 4.
 contador6 += 2; // Resultado = 6.
-console.log(contador6)
+console.log(contador6) // Resultado = 6
 
 
 // Cuidado com os tipos de dados que fazemos conta
