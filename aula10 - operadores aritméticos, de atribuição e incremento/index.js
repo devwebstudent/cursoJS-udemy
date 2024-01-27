@@ -104,9 +104,9 @@ console.log(contador5) // Resultado: 15
 
 // Fazendo de maneira SIMPLIFICADA. Por exemplo:
 let contador6 = 0;
-contador6 += 2; // É o mesmo que: contador6 = contador6 + 2; Resultado = 2.
-contador6 += 2; // Resultado = 4.
-contador6 += 2; // Resultado = 6.
+contador6 += 2; // 2
+contador6 += 2; // 4
+contador6 += 2; // 6
 console.log(contador6) // Resultado = 6
 
 
