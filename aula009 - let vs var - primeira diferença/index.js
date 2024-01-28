@@ -19,9 +19,6 @@ Com o LET -> não é possível redeclarar uma variável, como podemos ver nas li
 O LET surgiu para corrigir esse problema de redeclararmos uma variável.
 */
 
-
-
-
 /* IMPORTANTE!!!
 
 NÃO CRIE VARIÁVEIS SEM LET OU CONST!!!!!!!!!!!!!!!! 
