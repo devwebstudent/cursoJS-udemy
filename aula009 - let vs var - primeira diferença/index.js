@@ -1,12 +1,12 @@
 var nome = 'Luiz';
-var nome = 'Otávio';
+var nome = 'Otávio'; // Podemos redeclarar variáveis com var
 console.log(nome);
 
 let num = 13
-let num = 14
+let num = 14 // Não podemos redeclarar variáveis com let - Isso vai gerar um erro ao mandarmos executar
 console.log(num)
 
-nome2 = 'Olá mundo' // Sem utilizar nenhuma palavra (var, let, const), posso declarar uma variável - NÃO FAÇA ISSO!! -> Isso vai criar uma variável global no seu sistema geral e pode afetar outras variáveis do seu sistema
+nome2 = 'Olá mundo' // Posso declarar variável sem utilizar let, var ou const - NÃO FAÇA ISSO!! -> Isso vai criar uma variável global no seu sistema geral e pode afetar outras variáveis do seu sistema
 console.log(nome2)
 
 /*
