@@ -10,7 +10,7 @@ console.log(umaString.lastIndexOf('x', 4)) // Função que busca o valor de trá
 console.log(umaString.match(/[a-z]/g)); // Função referente a expressões regulares; no caso, vai me retornar todas as letras minúsculas
 // Professor não vai entrar muito em detalhes, pois iria requerer um curso específico para expressões regulares, pois é algo muito grande.
 
-console.log(umaString.search('U')) // Função que procurar o valor e retorna o índice desse valor; Muito similar ao indexOf(), mas ele aceita expressões regulares. // Resultado: 0
+console.log(umaString.search('U')) // Função que procura o valor e retorna o índice desse valor; Muito similar ao indexOf(), mas ele aceita expressões regulares. // Resultado: 0
 console.log(umaString.replace('Um', 'Outro')) // Função para substituir valores; No caso, vamos substituir a palavra 'Um' pela palavra 'Outro' // Resultado: Outro texto
 
 // match(), search() e replace() aceitam expressões regulares.
