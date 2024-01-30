@@ -33,7 +33,7 @@ console.log(alunos); // Resultado: [ 'Otávio', 'Eduardo', 'Maria', 'João', 'Lu
 
 
 // REMOVENDO ELEMENTO DO COMEÇO DO ARRAY - FUNÇÃO shift()
-let removido2 = alunos.shift(); // Slvando elemento removido do começo
+let removido2 = alunos.shift(); // Salvando elemento removido do começo
 console.log(removido2); // Mostra quem foi removido // Resultado: Otávio
 console.log(alunos); // Resultado: [ 'Eduardo', 'Maria', 'João', 'Luiza' ]
 
