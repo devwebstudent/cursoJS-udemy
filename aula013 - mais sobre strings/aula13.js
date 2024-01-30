@@ -4,8 +4,8 @@ console.log(`Essa string possui ${umaString.length} caracteres`) // Essa string 
 console.log(umaString[0]) // Retorna o valor de determinado índice // Resultado: U
 console.log(umaString.charAt(5)) // Função para retornar valor de determinado índice // Resultado: x
 console.log(umaString.concat(' em um lindo dia')) // Função para concatenar; mesmo resultado que o +
-console.log(umaString.indexOf('t', 2)) // Função que busca índice do começo até o final // Estamos buscando o t começando pelo índice 2. // Resultado: 3
-console.log(umaString.lastIndexOf('x', 4)) // Função que busca o índice de traz pra frente // Estamos buscando o x começando pelo índice 4. // Resultado: -1 (significa que não encontrou o índice desse valor)
+console.log(umaString.indexOf('t', 2)) // Função que busca o valor do começo até o final // Estamos buscando o t começando pelo índice 2. // Resultado: 3
+console.log(umaString.lastIndexOf('x', 4)) // Função que busca o valor de trás pra frente // Estamos buscando o x começando pelo índice 4. // Resultado: -1 (significa que não encontrou o valor)
 
 console.log(umaString.match(/[a-z]/g)); // Função referente a expressões regulares; no caso, vai me retornar todas as letras minúsculas
 // Professor não vai entrar muito em detalhes, pois iria requerer um curso específico para expressões regulares, pois é algo muito grande.
