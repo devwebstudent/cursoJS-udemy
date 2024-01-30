@@ -39,7 +39,7 @@ num5 += num6; // 1.0
 num5 += num6; // 1.1
 num5 += num6; // 1.2
 
-// console.log(num5) // Note que ao mandarmos mostrar -> Resultado: 0.9999999 (Fazendo até a linha 31)
+// console.log(num5) // Note que ao mandarmos mostrar -> Resultado: 0.9999999 (Fazendo até a linha 38)
 // num5 = num5.toFixed(2)); // Se deixarmos apenas num5.toFixed(2) a conta vai ter um valor correto aos nossos olhos, mas o problema não foi solucionado de verdade. // Resultado: 1.00
 // console.log(num5); // Ao mandar mostrar -> Resultado: 1.00 -> Apesar de estar sendo mostrado que ele tem o valor de 1.00, na verdade ele não tem esse valor.
 // console.log(Number.isInteger(num5)) // Agora mandamos checar se num5 é inteiro -> Resultado: FALSE
