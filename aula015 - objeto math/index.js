@@ -15,7 +15,7 @@ console.log(arredondar3); // Resultado: 10
 
 // MÉTODOS PARA SABERMOS O MAIOR OU MENOR NÚMERO EM UMA LISTA DE NÚMEROS -> max() e min()
 console.log(Math.max(1, 2, -15, 80, 47, 12, 37, 10)); // max() - Ele pega o maior número dentro de uma sequência de números // Resultado: 80
-console.log(Math.min(-8, 4, 74, 12, 15, -47, 60, 32, 13)); // min() - Pega o menor número dentro de uma sequência de números // Resultado> -47
+console.log(Math.min(-8, 4, 74, 12, 15, -47, 60, 32, 13)); // min() - Pega o menor número dentro de uma sequência de números // Resultado: -47
 
 
 // MÉTODO PARA GERAR NÚMEROS ALEATÓRIOS -> random() -> O 1 NUNCA é incluído
