@@ -1,4 +1,5 @@
 // O nome das funções tem as mesmas regras das variáveis. Geralmente, o nome da função é a ação que ela vai executar. Quando declaramos a função, não precisamos do ponto e vírgula.
+// Argumento é o valor que é passado pro parâmetro, como podemos ver na linha 10, o argumento passado foi 'Luiz'
 
 function saudacao(nome) {
     console.log(`Bom dia, ${nome}!`)
@@ -20,7 +21,7 @@ function saudacao2(nome) {
     return `Bom dia, ${nome}!`
 }
 
-const variavel2 = saudacao2('José'); 
+const variavel2 = saudacao2('José'); // O VALOR ENVIADO SE CHAMA ARGUMENTO - Estamos enviando esse argumento para dentro do parâmetro da função.
 console.log(variavel2);
 
 
