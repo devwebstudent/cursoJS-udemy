@@ -34,7 +34,8 @@ function criaPessoa(nome, sobrenome, idade) {
 // Criando vários objetos
 const pessoa3 = criaPessoa('João', 'Silva', 25);
 const pessoa4 = criaPessoa('Roberto', 'Miranda', 45);
-console.log(pessoa3.nome, pessoa4.nome);
+console.log(pessoa3.nome);
+console.log(pessoa4.nome);
 
 // SIMPLIFICANDO NOSSA FUNCTION DE CRIAR OBJETOS:
 function criaPessoa2(nome, sobrenome, idade) {

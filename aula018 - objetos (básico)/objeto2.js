@@ -28,10 +28,6 @@ const pessoa2 = {
         ++this.idade; // this é o objeto e idade tem o valor de 44 - Estou pegando esse valor e somando +1
     }
 }
-pessoa2.fala2()
-pessoa2.incrementaIdade()
-pessoa2.fala2()
-pessoa2.incrementaIdade()
-pessoa2.fala2()
-pessoa2.incrementaIdade()
-pessoa2.fala2()
+pessoa2.fala2();
+pessoa2.incrementaIdade();
+pessoa2.fala2();
