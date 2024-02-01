@@ -2,7 +2,7 @@
 
 AND - && -> E -> Todos os valores precisar ser VERDADEIROS (true) para o resultado ser VERDADEIRO (true)
 OR - || -> OU -> Apenas um valor precisa ser VERDADEIRO para retornar TRUE / Só retorna FALSE se os 2 valores forem FALSE
-NOT - ! -> NÃO
+NOT - ! -> NÃO -> Essa negação inverte uma expressão
 
 */
 
