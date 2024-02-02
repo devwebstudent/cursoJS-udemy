@@ -5,13 +5,23 @@
 
 
 AVALIAÇÃO DE CURTO CIRCUITO PARTE 1 - AND &&     -     RESUMO
-&& -> true && false && && false && true   -> Assim que encontrar um valor avaliado como FALSO, vai retornar o primeiro valor avaliado como FALSE.
+&& -> true && false && false && true   -> Assim que encontrar um valor avaliado como FALSO, vai retornar o primeiro valor avaliado como FALSE.
 && -> true && true && true && true        -> Se todas forem VERDADEIRO, vai retornar o último valor VERDADEIRO.
 
 
 /* AVALIAÇÃO DE CURTO-CIRCUITO PARTE 2 - OR ||     -    RESUMO
 || -> false || false || true || true    ->   Quando tiver algum VERDADEIRO, vai retornar o primeiro valor avaliado como VERDADEIRO.
 || -> false || false || false || false  ->   Sempre que todas forem avaliadas em FALSE, vai retornar o último avaliado como FALSO.
+
+*/
+
+/* VALORES QUE AVALIAM EM FALSO  (só esses valores são avaliados em falso em JavaScript) - Qualquer coisa diferente disso, avalia em TRUE no JavaScript.
+FALSY VALUES:
+false -> valor literal
+0
+"", '', `` -> strings vazias
+null / undefined
+NaN
 
 */
 
@@ -23,16 +33,6 @@ console.log('Luiz Otávio' && true && 'Maria'); // Ele vai checar a primeira exp
 
 
 
-
-/* VALORES QUE AVALIAM EM FALSO  (só esses valores são avaliados em falso em JavaScript) - Qualquer coisa diferente disso, avalia em TRUE no JavaScript.
-FALSY VALUES:
-false -> valor literal
-0
-"", '', `` -> strings vazias
-null / undefined
-NaN
-
-*/
 
 // No caso abaixo, não vai ter avaliação de curto circuito, pois não temos valores falsos. Ele vai checar a primeira expressão (VERDADEIRA (pois não é uma string vazia)); vai checar E 'Maria' (VERDADEIRA) e vai me retornar o último valor que foi checado.
 console.log('Luiz' && 'Maria'); // Resultado: Maria
