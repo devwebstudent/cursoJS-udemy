@@ -6,12 +6,16 @@
 
 AVALIAÇÃO DE CURTO CIRCUITO PARTE 1 - AND &&     -     RESUMO
 && -> true && false && false && true   -> Assim que encontrar um valor avaliado como FALSO, vai retornar o primeiro valor avaliado como FALSE.
-&& -> true && true && true && true        -> Se todas forem VERDADEIRO, vai retornar o último valor VERDADEIRO.
+&& -> true && true && true && true        -> Se todas forem VERDADEIRO, vai retornar o último valor avaliado como VERDADEIRO. Não tem mais nada pra checar, ele retorna o último valor VERDADEIRO.
+
+A partir do momento que a primeira expressão FALSE aparecer, não preciso checar mais nada, já vai retornar o valor de FALSE. A partir do momento que encontro uma FALSE, eu já paro de checar. Isso é o que chamamos de avaliação de curto-circuito.
 
 
 /* AVALIAÇÃO DE CURTO-CIRCUITO PARTE 2 - OR ||     -    RESUMO
 || -> false || false || true || true    ->   Quando tiver algum VERDADEIRO, vai retornar o primeiro valor avaliado como VERDADEIRO.
-|| -> false || false || false || false  ->   Sempre que todas forem avaliadas em FALSE, vai retornar o último avaliado como FALSO.
+|| -> false || false || false || false  ->   Sempre que todas forem avaliadas em FALSE, vai retornar o último valor avaliado como FALSO. Não tem mais nada pra checar, ele retorna o último valor FALSO.
+
+
 
 */
 
