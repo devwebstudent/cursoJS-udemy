@@ -2,7 +2,7 @@
 // Na nossa função meuEscopo quero previnir que nosso formulário seja enviado quando clicamos no botão de enviar, pois se eu enviar, a página será atualizada e não queremos isso neste exercício.
 // Queremos prevenir que a página seja atualizada.
 
-// Não função meuEscopo() quero previnir que minha página seja atualizada.
+// Na função meuEscopo() quero previnir que minha página seja atualizada.
 function meuEscopo() {
     const form = document.querySelector('.form'); // Estamos selecionando o form que está dentro de document. Poderiamos selecionar ele pelo nome da tag, pela classe que ele tem, por ID, etc.
     const resultado = document.querySelector('.resultado'); // Selecionando nossa div de resultado.
@@ -34,7 +34,7 @@ function meuEscopo() {
     
     // Recurso mais moderno, utilizando EventListener (escutador de evento)
     // Colocando espiões na página pra ele ficar vigiando algum evento (Se isso acontecer, faça alguma coisa):
-    form.addEventListener('submit', recebeEventoForm) // Ao clicarmos no Enviar, ele vai executar essa função. Quando ela for executada, vai prevenir o padrão de atualizar a página (linha 14).
+    form.addEventListener('submit', recebeEventoForm) // Ao clicarmos no Enviar, ele vai executar essa função. Quando ela for executada, vai prevenir o padrão de atualizar a página (linha 15).
     // Adiciona um escutador de evento no meu formulário e dentro colocamos qual evento queremos escutar, que no caso é o evento de submit (enviar). O escutador também vai receber uma função
     // Feito isso, já resolvemos o problema da página atualizar assim que enviamos o formulário.
 }
