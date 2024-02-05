@@ -12,7 +12,7 @@ function meuEscopo() {
     // O que queremos: a cada vez que o formulário for enviado, preciso capturar o valor de nome, sobrenome, peso e altura.
     // Para fazer isso, precisamos selecionar os elementos, por isso criamos as classes. Veja abaixo:
     function recebeEventoForm(evento) {
-        evento.preventDefault(); // Para prevenir que o navegador faça o padrão de atualizar a página ao clicarmos no botão de enviar.
+        evento.preventDefault(); // Para dizer para o navegador não executar o que seria executado por padrão. Nesse caso, vai prevenir que o navegador faça o padrão de atualizar a página ao clicarmos no botão de enviar.
         
         // Aqui quero selecionar inputs que estão dentro do formulário. Se quero diminuir o local onde quero fazer a pesquisa, se quero pesquisar num lugar menor, pq eu sei que ele está ali, utilizamos o form. Ou seja, estamos buscando coisas que estão dentro do form e não dentro do corpo inteiro do HTML.
         const nome = form.querySelector('.nome');
