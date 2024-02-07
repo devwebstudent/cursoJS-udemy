@@ -1,4 +1,3 @@
-
 // CONTINUAÇÃO
 
 // Função que coloca o 0 à esquerda se o número for menor que 10
