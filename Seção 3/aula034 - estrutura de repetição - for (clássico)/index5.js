@@ -6,7 +6,7 @@ const frutas = ['Maçã', 'Pêra', 'Uva', 'Banana', 'Abacaxi', 'Melancia', 'Caju
 console.log(frutas.length) // 10 elementos
 
 
-// Vamos começar do 0; Queremos parar no tamanho do array (frutas.length é 3). Não pode ser <=, tem que ser <, pois ele tem que parar no 2.
+// Vamos começar do 0; Queremos parar no tamanho do array (frutas.length é 10). Não pode ser <=, tem que ser <, pois ele tem que parar no 9.
 for (let i = 0; i < frutas.length; i++) {
     console.log(`Índice ${i} é ${frutas[i]}`); // Fazendo a estrutura de repetição mostrar qual fruta está em determinado Índice
 }
