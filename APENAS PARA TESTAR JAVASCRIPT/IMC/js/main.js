@@ -22,4 +22,4 @@ function calcularIMC(evento) {
 }
     
 
-let calc = form.addEventListener('submit', calcularIMC)
+form.addEventListener('submit', calcularIMC)
