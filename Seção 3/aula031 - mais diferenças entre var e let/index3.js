@@ -6,7 +6,7 @@
 // RESUMINDO: Apenas a declaração da variável é içada para o topo, não o valor. 
 
 
-// ISSO NÃO OCORRE HOISTING COM LET! -> Se uso uma variável antes de declarar ela, vai me retornar um erro
+// NÃO OCORRE HOISTING COM LET! -> Se uso uma variável antes de declarar ela, vai me retornar um erro
 
 var sobrenome;
 console.log(sobrenome) // Resultado: undefined
