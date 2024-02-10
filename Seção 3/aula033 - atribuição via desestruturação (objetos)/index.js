@@ -10,4 +10,4 @@ const pessoa = {
 
 // Jogando o atributo nome em uma variável
 const nome = pessoa.nome // Atribuição normal
-console.log(nome) // Resultado: nome
+console.log(nome) // Resultado: Luiz
