@@ -22,3 +22,12 @@ console.log(a, b) // Resultado: A A
 
 a = 'Outra coisa';
 console.log(a, b) // Como podemos ver, somente o valor de a foi alterado, enquanto o de b se manteve o mesmo de quando ela copiou o valor inicial de a.
+
+
+/* RESUMINDO: 
+
+VALORES PRIMITIVOS: valores primitivos são copiados de uma variável para outra. Os valores das variáveis vão ser independentes, caso alguma mude seu valor.
+VALORES POR REFERÊNCIA: as variáveis vão apontar para o mesmo lugar na memória que a outra variável caso fazemos b = a; Se mudo uma variável, a outra tb muda.
+
+
+*/
