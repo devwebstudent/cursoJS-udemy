@@ -3,7 +3,7 @@
 
 // Índice          0       1      2        3         4           5         6         7         8         9
 const frutas = ['Maçã', 'Pêra', 'Uva', 'Banana', 'Abacaxi', 'Melancia', 'Caju', 'Abacate', 'Laranja', 'Mamão']
-console.log(frutas.length) // 10 elementos
+console.log(`${frutas.length} elementos`) // 10 elementos
 
 
 // Vamos começar do 0; Queremos parar no tamanho do array (frutas.length é 10). Não pode ser <=, tem que ser <, pois ele tem que parar no 9.
