@@ -1,5 +1,7 @@
 // Escreva uma função que recebe 2 números e retorne o maior deles
 
+
+// Minha solução:
 function maiorNumero(num1=0, num2=0) {
     return Math.max(num1, num2)
 }
@@ -9,7 +11,7 @@ console.log(maiorNum); // Resultado: 600
 
 
 
-// Fazendo de outro modo - operador ternário
+// Solução do professor - fazendo de outro modo - operador ternário
 function maior(x, y) {
     return x > y ? x : y;
 }
