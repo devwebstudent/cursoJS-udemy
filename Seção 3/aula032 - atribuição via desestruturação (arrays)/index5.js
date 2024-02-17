@@ -8,3 +8,6 @@ const numeros = [ [1, 2, 3], [4, 5, 6], [7, 8, 9] ]
 // Não quero o Índice 0, então colocamos uma vírgula para pular. Quero o Índice 1. Desse Índice 1, não quero nem o Índice 0 e nem o Índice 1 dele, quero só o Índice 2, que é onde está o 6.
 const [, [, , seis]] = numeros
 console.log(seis) // Resultado: 6
+
+const [,,[, oito]] = numeros
+console.log(oito) // Pegando o 8 // Resultado: 8

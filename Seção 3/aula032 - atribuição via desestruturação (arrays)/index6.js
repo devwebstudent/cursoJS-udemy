@@ -7,3 +7,5 @@ const [lista1, lista2, lista3] = numeros;
 
 // Se quisermos acessar o 9 da nossa lista3, fazemos assim:
 console.log(lista3[2]) // Estamos acessando o Índice 2 da nossa lista3, que no caso é o 9 // Resultado: 9
+
+console.log(lista2[1]) // Resultado: 5

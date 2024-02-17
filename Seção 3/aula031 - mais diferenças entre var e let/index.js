@@ -36,4 +36,4 @@ if (verdadeira) {
     }
 }
 
-console.log(nome, nome2) // Vai pegar o nome do escopo global (linha 7), pois let tem escopo de bloco; vai pegar o último nome2 declarado (linha 33) // Resultado: Luiz Ronaldo
+console.log(nome, nome2) // Vai pegar o nome do escopo global (linha 7), pois let tem escopo de bloco; vai pegar o último nome2 declarado (linha 35) // Resultado: Luiz Ronaldo
