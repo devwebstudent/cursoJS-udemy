@@ -1,0 +1,1 @@
+// Resumindo: Se ocorrer qualquer erro dentro do bloco TRY, ele vai executar o bloco CATCH. Se não ocorrer nenhum erro no TRY, o TRY será executado.
