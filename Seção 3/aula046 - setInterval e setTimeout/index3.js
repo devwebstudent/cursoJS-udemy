@@ -20,7 +20,7 @@ setTimeout(function() {
 }, 3000); // Ele vai parar daqui a 3 segundos
 
 
-// Posso também utilizar o setTimeout() para fazer outras coisas, como exibir uma mensagem na tela.
+// Posso também utilizar o setTimeout() para fazer outras coisas, como exibir uma mensagem na tela depois de 5 segundos
 setTimeout(function() {
     console.log('Olá mundo')
 }, 5000);
