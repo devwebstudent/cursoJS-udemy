@@ -12,4 +12,5 @@ let horario = setInterval(function() {
 // Parando execução da nossa função depois de 10 segundos (em milisegundos)
 setTimeout(function() {
     clearInterval(horario)
-}, 10000)
+    console.log(`Parando nosso timer`)
+}, 5000)
