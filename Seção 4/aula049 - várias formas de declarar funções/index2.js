@@ -1,7 +1,7 @@
 /* Outro exemplo: 
 
 - Fist-class objecst
-// Function expression
+// Function expression (jogamos a função dentro de uma variável)
 
 
 Funções são objetos de primeira classe: a gente quer falar que a função pode ser tratada como dado. Podemos passar ela para uma outra função, retornar ela de outra função, etc.
