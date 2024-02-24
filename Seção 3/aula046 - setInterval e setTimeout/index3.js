@@ -17,6 +17,7 @@ const timer = setInterval(function() {
 // setTimeout() -> executa só uma vez. Utilizei essa função pra parar a execução do nosso setInterval()
 setTimeout(function() {
     clearInterval(timer); // Passo o nome do intervalo que quero parar
+    console.log('Parando execução da função após 3 segundos')
 }, 3000); // Ele vai parar daqui a 3 segundos
 
 
