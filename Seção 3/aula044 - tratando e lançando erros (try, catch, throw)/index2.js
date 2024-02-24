@@ -3,8 +3,7 @@
 // Função que soma 2 números. x e y precisam ser numéricos, se não forem NUMBER, a soma vai concatenar o valor e pode gerar um valor errado no final. Vai gerar algum transtorno no final.
 // No nosso exemplo, queremos checar se x e y realmente são números. Se não forem, vamos lançar um erro. Veja:
 function soma(x, y) {
-    if (
-        typeof x !== 'number' || typeof y !== 'number') { // Aqui estamos checando: se o tipo de x não for NUMBER ou o tipo de y não for um NUMBER
+    if (typeof x !== 'number' || typeof y !== 'number') { // Aqui estamos checando: se o tipo de x não for NUMBER ou o tipo de y não for um NUMBER
         throw new ReferenceError('x e y precisam ser números.') // Aqui estamos criando um novo erro. Se o erro for lançado aqui, a função já vai parar aqui e não vai executar o que está abaixo.
         // Pra gente lançar erro, fazemos: throw new Error ou ReferenceError
         // Esses erros são para o desenvolvedor entender o tipo de erro que ocorreu, só para quem está analisando o erro.
