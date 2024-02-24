@@ -9,8 +9,8 @@ function verificarIdade(idade) {
 }
 
 try {
-    verificarIdade(25); // Isso vai lançar uma exceção
-    console.log(idade)
+    verificarIdade(15); // Isso vai lançar uma exceção
+    
 } catch (error) {
     console.log("Ocorreu um erro:", error.message); // Exibe a mensagem de erro
 }
