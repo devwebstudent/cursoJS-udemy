@@ -13,10 +13,10 @@ function funcaoDoIntervalo() {
     console.log(mostraHora())
 }
 
-// setInterval() vai configurar um intervalo de tempo para que uma função seja executada em determinado momento
+// setInterval() executa repetidamente uma função
 // Vamos passar uma referência no primeiro parâmetro pra função que eu quero que seja executada de tempos em tempos. No caso, queremos que funcaoDoIntervalo() seja executada pelo setInterval().
 // Ao invés de eu executar a função aqui, só passo a referência (passar referência = chamar a função sem executar ela utilizando parenteses)
-// O segundo parâmetro é para passarmos de quanto em quanto tempo eu quero que isso seja executado.
+// O segundo parâmetro passamos de quanto em quanto tempo eu quero que isso seja executado.
 // 1000 ms = 1 segundo
 
 setInterval(funcaoDoIntervalo, 1000) 
