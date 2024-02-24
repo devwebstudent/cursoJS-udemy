@@ -7,9 +7,10 @@ try {
     console.log('Manipulei o arquivo e gerou erro.') // Se por acaso você abrir e por algum motivo não fechou o arquivo, isso geraria erros, que vai pro bloco CATCH. Ele não passaria na linha abaixo desta.
     console.log('Fechei o arquivo.')
 
-} catch (e) {
+} catch (erro) {
     // Executado quando há erros
     console.log('Tratando o erro.')
+    // console.log(erro) // Se mando exibir o erro, diz qual foi o erro: a não foi definido
 
 } finally {
     // Será executado sempre. Dando erro ou não, o FINALLY sempre será executado.

@@ -1,5 +1,5 @@
 // Continuando com os tratamentos de erro
-// Temos uma terceira parte que seria o FINALLY: ele será executado SEMPRE, mas podemos emitir ele se não precisarmos que um código seja executado sempre.
+// Temos uma terceira parte que seria o FINALLY: ele será executado SEMPRE, mas podemos omitir ele se não precisarmos que um código seja executado sempre.
 // Geralmente utilizamos apenas TRY e CATCH, mas em alguns momentos vamos precisar do bloco FINALLY.
 
 try {
