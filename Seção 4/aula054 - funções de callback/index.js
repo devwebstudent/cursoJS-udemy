@@ -1,4 +1,5 @@
 // Funções de callback = funções que são executadas quando uma ação ocorre; quando uma ação finaliza ela executa essa função de callback
+// Callback é uma função que será executada dentro de outra, no momento que você achar pertinente
 
 // Criando função que gera números aleatórios entre 1000 e 3000 para o setTimeout()
 function rand(min = 1000, max = 3000) {
