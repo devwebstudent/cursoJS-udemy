@@ -17,7 +17,7 @@ const pessoas = [
 // Vamos utilizar o índice de cada objeto como nosso ID
 // Para que o array original não seja modificado, copiamos o valor do array original pra um novo array
 // Aqui não vamos estar modificando o objeto original, apenas na cópia
-const comIds = pessoas.map(function(objeto, indice) {
+const comIds = pessoas.map((objeto, indice) => {
     // Criando um novo objeto para que os originais não sejam alterados
     const newObj = {...objeto} // Copiando objetos originais com spread operator ...
     newObj.id = indice + 1 // Para não ter ID com 0 somamos +1
