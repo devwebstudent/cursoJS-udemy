@@ -1,0 +1,1 @@
+// O reduce() vai retornar o valor acumulado
