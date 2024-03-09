@@ -4,7 +4,7 @@
 const nomes = ['Eduardo', 'Maria', 'Joana'];
 
 
-// Espalhando dados do array utilizamos (copiar todos os elementos do array e espalhar dentro de outro array)
+// Espalhando dados do array utilizando spread operator (copiar todos os elementos do array e espalhar dentro de outro array)
 const novo = [...nomes];
 console.log(novo) // [ 'Eduardo', 'Maria', 'Joana' ]
 

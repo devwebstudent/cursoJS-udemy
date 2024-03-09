@@ -1,5 +1,5 @@
 // Filter é uma das funções mais importantes pra array dentro do JavaScript
-// Filter vai filtrar o array, sem editar o array original
+// Filter vai filtrar o array, sem modificar o array original
 // Filter sempre vai retornar um array com a mesma quantidade de elementos do array original ou menos, pois vamos filtrar esse array. Ex: se queremos números maior que 0, ele vai retornar todos os elementos do nosso exemplo; se queremos números maiores que 50, vai retornar apenas o 80
 
 

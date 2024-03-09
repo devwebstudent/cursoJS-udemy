@@ -7,6 +7,6 @@ const nomes = ['Maria', 'João', 'Eduardo', 'Gabriel', 'Júlia']
 // Number.MAX_VALUE é o maior número que pode ser representado em JAVASCRIPT
 // Aqui estamos removendo do índice 2 até o final do nosso ARRAY
 
-const removidos = nomes.splice(-2, Number.MAX_VALUE) // Começa do -2 e vai remover até o final do array
+const removidos = nomes.splice(-2, Number.MAX_VALUE) // Começa do -2 (Gabriel) e vai remover até o final do array
 console.log(removidos) // [ 'Gabriel', 'Júlia' ]
 console.log(nomes) // [ 'Maria', 'João', 'Eduardo' ]

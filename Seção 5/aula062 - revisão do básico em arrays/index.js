@@ -18,7 +18,7 @@ console.log(nomes) // [ 'Eduardo', 'Maria', <1 empty item> ]
 
 // Arrays são valores por referência
 const novo = nomes // Esse valor foi passado por referência: tudo que eu fizer em um vai refletir no outro
-console.log(novo) // [ 'Eduardo', 'Maria', 'João' ]
+console.log(novo, nomes) // [ 'Eduardo', 'Maria', 'João' ] [ 'Eduardo', 'Maria', 'João' ]
 
 novo.pop() // Removi o último valor dos 2, pois os 2 arrays estão apontando pro mesmo lugar na memória
 

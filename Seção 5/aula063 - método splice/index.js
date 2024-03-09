@@ -1,5 +1,6 @@
 // A função splice() faz o que pop(), push(), shift(), unshift() fazem e mais um pouco
 // Essa função mexe no array original, assim como pop() e push()
+// splice() vai retornar o que for removido
 
 // nomes.splice():
 //  -> no primeiro parâmetro - colocamos o índice que quero começar a mexer

@@ -12,7 +12,7 @@ const pares = numeros.reduce(function (acumulador, valor) {
     if (valor % 2 === 0) acumulador.push(valor)
     return acumulador
 }, []) 
-// Acumulador é um arrau vazio no início e vamos adicionando os números pares nele a cada iteraçào
+// Acumulador é um array vazio no início e vamos adicionando os números pares nele a cada iteraçào
 
 
 // Vai retornar um array só com os números pares

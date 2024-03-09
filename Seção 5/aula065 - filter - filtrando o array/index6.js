@@ -10,8 +10,7 @@ const pessoas = [
     { nome: 'Wallace', idade: 47 }
 ];
 
-const pessoasComNomeGrande = pessoas.filter(objeto => objeto.nome.length >= 5 // // Estamos pegando o tamanho do nome da pessoa
-)
+const pessoasComNomeGrande = pessoas.filter(objeto => objeto.nome.length >= 5) // // Estamos pegando o tamanho do nome da pessoa
 
 console.log(pessoasComNomeGrande) 
 
