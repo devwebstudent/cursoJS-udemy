@@ -27,7 +27,7 @@ console.log(alunos); // Resultado: [ 'Otávio', 'Eduardo', 'Maria', 'João', 'Lu
 
 
 // REMOVENDO ELEMENTO DO FINAL DO ARRAY - FUNÇÃO pop()
-let removido1 = alunos.pop(); // Salvando elemento removido do final
+let removido1 = alunos.pop(); // Salvando elemento removido do final do array em uma variável
 console.log(removido1); // Para mostrar qual foi o elemento removido // Resultado: Fábio
 console.log(alunos); // Resultado: [ 'Otávio', 'Eduardo', 'Maria', 'João', 'Luiza' ]
 

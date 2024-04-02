@@ -3,7 +3,9 @@ let umaString = "Um texto";
 console.log(`Essa string possui ${umaString.length} caracteres`) // Essa string possui 8 caracteres
 console.log(umaString[0]) // Retorna o valor de determinado índice // Resultado: U
 console.log(umaString.charAt(5)) // Função para retornar valor de determinado índice // Resultado: x
+
 console.log(umaString.concat(' em um lindo dia')) // Função para concatenar; mesmo resultado que o +
+
 console.log(umaString.indexOf('t', 2)) // Função que busca o valor do começo até o final // Estamos buscando o t começando pelo índice 2. // Resultado: 3
 console.log(umaString.lastIndexOf('x', 4)) // Função que busca o valor de trás pra frente // Estamos buscando o x começando pelo índice 4. // Resultado: -1 (significa que não encontrou o valor)
 

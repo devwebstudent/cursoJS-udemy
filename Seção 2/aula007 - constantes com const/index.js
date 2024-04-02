@@ -10,10 +10,10 @@ const resultado = primeiroNumero * segundoNumero; // Multiplicando a primeira co
 const resultadoDuplicado = resultado * 2 // Resultado: 50 * 2 = 100
 let resultadoTriplicado = resultado * 3 // Resultado: 50 * 3 = 150
 resultadoTriplicado = resultadoTriplicado + 5 // Resultado: 150 + 5 = 155 - Perdemos o valor inicial dessa variável, que era de 150. Agora ela vai estar valendo 155
+
 console.log(resultado) // Resultado: 50
 console.log(resultadoDuplicado) // Resultado: 100 (o valor de resultado * 2)
 console.log(resultadoTriplicado)
-
 console.log(typeof primeiroNumero) // Resultado: number
 console.log(primeiroNumero + segundoNumero) // Resultado: 15
 console.log(segundoNumero + terceiroNumero) // Resultado: 1020 - Dá esse resultado pois ele CONCATENA (junta) os valores, que no caso é uma STRING + NUMBER

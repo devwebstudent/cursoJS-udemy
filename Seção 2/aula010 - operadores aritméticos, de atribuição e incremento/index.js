@@ -122,5 +122,5 @@ console.log(num1 + num2) // Resultado: 15.
 
 // Método mais moderno de converter STRING em NUMBER
 let num3 = 70
-let num4 = Number('70'); // Number vai convter o dado, que é do tipo STRING, em um NUMBER.
+let num4 = Number('70'); // Number vai converter o dado, que é do tipo STRING em um NUMBER.
 console.log(num3 + num4) // Resultado: 140

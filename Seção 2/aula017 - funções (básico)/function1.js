@@ -27,7 +27,7 @@ console.log(variavel2);
 
 
 // CRIANDO FUNÇÃO QUE SOMA ENTRE 2 VALORES
-function soma(x=0, y=0) { // Nossa função vai precisar receber 2 números. Caso não receba um dos valores ou os 2 valores, o valor padrão vai ser 0 para x ou y
+function soma(x=0, y=0) { // A função vai precisar receber 2 números. Caso não receba um dos valores ou os 2 valores, o valor padrão vai ser 0 para x e y
     const soma = x + y;
     return soma;
 }

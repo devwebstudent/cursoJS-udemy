@@ -22,4 +22,4 @@ const sobrenomeAluno = null;
 // Utilizamos BOOLEAN quando queremos mudar o fluxo da nossa aplicação, fazendo algum Desvio Condicional.
 const aprovado = true; // Aluno aprovado
 
-console.log(typeof aprovado, aprovado) // Para mostrar o TIPO e o VALOR de determinada variável.
+console.log(typeof aprovado, aprovado) // Para mostrar o TIPO e o VALOR de determinada variável. // Resultado: boolean true

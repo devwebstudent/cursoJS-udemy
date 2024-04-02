@@ -1,5 +1,5 @@
 let nome = 'João'; // STRING (sempre tem que estar dentro de aspas)
-let nome2; // Declaramos a variável, mas não atribuímos nenhum valor a ela. Seu valor vai ficar como 'undefined' ao mandarmos exibir na tela (linha 10)
+let nome2; // Declaramos a variável, mas não atribuímos nenhum valor a ela. Seu valor vai ficar como 'undefined' ao mandarmos exibir na tela (linha 11)
 nome2 = 'José' // Inicializando a variável; O valor da variável pode ser alterado ao longo do código
 
 console.log(nome, 'nasceu em 1984.');
