@@ -21,7 +21,7 @@ console.log(c) // c vai estar com os mesmos valores de a e b, pois todos estão 
 
 
 
-// Se por algum motivo eu quiser copiar o valor de a para dentro de b. Isso faz com que não apontem mais para o mesmo lugar na memória. Vamos utilizar o operador ... Veja abaixo:
+// Se eu quiser copiar o valor de a para dentro de b. Isso faz com que não apontem mais para o mesmo lugar na memória. Vamos utilizar o operador ... Veja abaixo:
 b = [...a] // O valor de a foi copiado para b - Estou fazendo um spread do array a dentro de b. Nesse caso, o valor de b é totalmente independente.
 b.push(15)
 console.log(b, c) // Ao mandarmos exibir, veja que o 15 foi para b, mas não foi para dentro de a // Resultado: [ 1, 2, 3, 'Luiz' ] [ 1, 2, 3, 'Luiz', 15 ]

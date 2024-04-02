@@ -39,7 +39,7 @@ console.log(comp5); // Estamos comparando um NUMBER e uma STRING; Vai dar true, 
 const num3 = 20;
 const num4 = '20';
 const comp6 = num3 === num4; // Checa o valor e o tipo
-console.log(comp6); // Resultado: false
+console.log(comp6); // Resultado: false -> eles tem o mesmo valor, mas são de tipos diferentes
 
 
 

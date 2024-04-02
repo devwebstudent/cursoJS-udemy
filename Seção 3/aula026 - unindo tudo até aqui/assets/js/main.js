@@ -7,10 +7,13 @@ const form = document.querySelector('#formulario'); // Selecionando nosso formul
 form.addEventListener('submit', function(e) { // Evento que quero escutar e função que ele executa ao clicarmos no enviar.
     // Vamos capturar o evento. Ao invés de chamar de 'evento', vamos chamar de 'e'. Todo mundo quer ler o código vai saber que é um evento. 
     e.preventDefault();
+    
     const inputPeso = e.target.querySelector('#peso'); // Como sei de onde está vindo esse evento, tb podemos usar e.target (ou seja, de quem está vindo esse evento, quem que tá recebendo esse evento); e.target vai me informar o elemento que está recebendo o evento (se é um clique, o e.target vai me informar qual elemento foi clicado na página)
+    
     const inputAltura = e.target.querySelector('#altura'); // O e.target, de onde eu estou selecionando, eu quero pegar desse elemento que no caso é o form, eu quero pegar a altura.
 
     const peso = Number(inputPeso.value); // Agora quero pegar só o valor, pois em cima selecionamos o input inteiro. Feito isso, convertemos para Number.
+    
     const altura = Number(inputAltura.value);
 
     // Se os valores são NaN (falsy value), podemos utilizar nossa estrutura condicional para checarmos se esse valor é falso.

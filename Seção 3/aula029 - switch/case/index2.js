@@ -6,6 +6,7 @@
 const data = new Date();
 let diaSemana = data.getDay();
 console.log(diaSemana);
+
 let diaSemanaTexto;
 
 // variável que quero checar

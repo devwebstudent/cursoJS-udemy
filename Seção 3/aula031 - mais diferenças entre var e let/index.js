@@ -10,7 +10,7 @@ let nome = 'Luiz';
 var nome2 = 'Luiz'; // Criando
 
 console.log(nome); // Já aqui vai aparecer 'Luiz', pois tem um let nome no escopo global // Resultado: Luiz
-console.log(nome2); // Resultado: Otávio
+console.log(nome2); // Resultado: Luiz
 
 
 if (verdadeira) {
@@ -36,4 +36,4 @@ if (verdadeira) {
     }
 }
 
-console.log(nome, nome2) // Vai pegar o nome do escopo global (linha 7), pois let tem escopo de bloco; vai pegar o último nome2 declarado (linha 35) // Resultado: Luiz Ronaldo
+console.log(nome, nome2) // Vai pegar o nome do escopo global (linha 9), pois let tem escopo de bloco; vai pegar o último nome2 declarado (linha 35) // Resultado: Luiz Ronaldo
