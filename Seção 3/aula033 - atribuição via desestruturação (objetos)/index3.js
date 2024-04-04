@@ -10,7 +10,7 @@ const pessoa = {
     }
 };
 
-const {nome = '', sobrenome, idade} = pessoa;
+const {nome = 'Não existe', sobrenome, idade} = pessoa;
 console.log(nome, sobrenome, idade) // Resultado: Não existe Miranda 30
 
 // Obs.: mesmo se colocarmos o valor padrão, caso tenhamos o atributo nome dentro do nosso objeto, a variável nome vai assumir esse valor do atributo. Ex: Luiz

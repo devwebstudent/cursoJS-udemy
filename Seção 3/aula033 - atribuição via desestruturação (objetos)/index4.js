@@ -12,7 +12,7 @@ const pessoa = {
 
 // nome da chave: <nome da variável> -> essa chave eu quero que você crie essa variável 'n'
 // Abaixo estamos modificando o nome da nossa variável para 'n', que terá o valor de 'Luiz'
-const {nome: n = '', sobrenome} = pessoa;
+const {nome: n = 'não consta', sobrenome} = pessoa;
 console.log(n) // Resultado: Luiz
 
 // Podemos também pegar alguma coisa que está dentro do endereço
