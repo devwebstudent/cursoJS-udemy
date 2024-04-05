@@ -1,6 +1,6 @@
 /* Outro exemplo: 
 
-- Fist-class objecst
+- Fist-class object
 // Function expression (jogamos a função dentro de uma variável)
 
 

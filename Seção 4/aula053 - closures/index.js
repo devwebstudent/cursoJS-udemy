@@ -12,7 +12,7 @@ function retornaFuncao() {
 }
 
 const funcao = retornaFuncao() // Se eu chamo retornaFuncao(), essa variável vai receber uma função anônima como retorno
-console.dir(funcao) // Ao mandarmos exibir essa variável que está recebendo a função anônima, ela vai executar essa função e retornar o valor de nome. // Resultado: Luiz
+console.dir(funcao()) // Ao mandarmos exibir essa variável que está recebendo a função anônima, ela vai executar essa função e retornar o valor de nome. // Resultado: Luiz
 
 // Essa função anônima tem acesso a 3 escopos:
 // - Escopo dela

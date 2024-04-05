@@ -16,4 +16,4 @@ function usaFalaNome() {
 
 usaFalaNome();
 
-// Resultado: vai mostrar 'Luiz', pois a função usaFalaNome() vai executar o que está dentro da função falaNome(). A consta nome dentro de usaFalaNome() foi declarada, mas não está sendo usada por nada.
+// Resultado: vai mostrar 'Luiz', pois a função usaFalaNome() vai executar o que está dentro da função falaNome(). A const 'nome' dentro de usaFalaNome() foi declarada, mas não está sendo usada por nada.

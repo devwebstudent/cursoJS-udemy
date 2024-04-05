@@ -1,5 +1,5 @@
 /* RESUMO CHAT GPT:
-Em JavaScript, uma função de callback é basicamente uma função que é passada como argumento para outra função e é executada dentro dessa função. Em outras palavras, você está "chamando de volta" essa função dentro de outra.
+Uma função de callback é basicamente uma função que é passada como argumento para outra função e é executada dentro dessa função. Em outras palavras, você está "chamando de volta" essa função dentro de outra.
 
 A principal utilidade das funções de callback é permitir que você execute código de forma assíncrona, ou seja, enquanto outras operações estão acontecendo. Isso é especialmente útil em situações onde você precisa esperar por uma ação específica para executar outra ação, como uma requisição de dados a um servidor ou uma animação sendo concluída.
 

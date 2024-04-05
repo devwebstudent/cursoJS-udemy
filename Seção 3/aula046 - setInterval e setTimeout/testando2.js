@@ -1,14 +1,11 @@
-function mostraNum(num) {
-    return num
-} 
+let min = 1
+let max = 101
 
-let numero = mostraNum(15)
+function numAleatorio(min, max) {
+    let random = Math.round(Math.random() * (max - min) + min)
+    return random
+}
 
-let mostraNumero = setInterval(() => {
-    console.log(numero)
-}, 1000);
-
-setTimeout(() => {
-    clearInterval(mostraNumero)
-    console.log('Pausando função')
-}, 5000);
+let aleatorio = setInterval(() => {
+    console.log(numAleatorio(min, max))
+}, 1000)
