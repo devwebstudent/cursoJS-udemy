@@ -5,13 +5,18 @@ function criaPessoa(nome, sobrenome, a, p) {
     return {
         nome,
         sobrenome,
-
+        altura: a,
+        peso: p,
+        fala(assunto = 'falando sobre NADA') {
+            return `${this.nome} está ${assunto}.`
+        },
+        
         // Getter - Método que retorna nome completo da pessoa. Como só obtenho o valor, ele pode ser um Getter. Isso vai fazer o método fingir ser um atributo.
         get nomeCompleto() {
             return `${this.nome} ${this.sobrenome}`
         },
 
-        // Setter - Como vamos receber o valor que foi enviado na linha 37 pra cá?
+        // Setter - Como vamos receber o valor que foi enviado na linha 40 pra cá?
         // Aqui estou modificando o valor do nome
         set nomeCompleto(valor) {
             valor = valor.split(' ') // A cada espaço o nome completo vai ser dividido. Vai me retornar um array -> [ 'Maria', 'Oliveira', 'Silva' ]
@@ -21,14 +26,7 @@ function criaPessoa(nome, sobrenome, a, p) {
             this.sobrenome = valor.join(' ') // Pegando o resto (Oliveira e Silva) e juntando eles numa string e separando por um espaço
         },
 
-        fala(assunto = 'falando sobre NADA') {
-            return `${this.nome} está ${assunto}.`
-        },
-        
-        altura: a,
-        peso: p,
-
-        // Getter - para obtermos apenas o valor de imc utilizando apenas a notação de atributo (.)
+        // Getter - para obtermos apenas o valor de imc utilizando a notação de ponto (.)
         get imc() { // Utilizando a palavra get, imc agora vai fingir que é um atributo do objeto
             const indice = this.peso / (this.altura ** 2)
             return indice.toFixed(2)

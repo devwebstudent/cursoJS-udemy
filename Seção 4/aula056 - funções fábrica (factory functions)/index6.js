@@ -5,19 +5,20 @@ function criaPessoa(nome, sobrenome, a, p) {
     return {
         nome,
         sobrenome,
-
-        // Método que retorna nome completo da pessoa. Como só obtenho o valor, ele pode ser um Getter. Isso vai fazer o método fingir ser um atributo.
-        get nomeCompleto() {
-            return `${nome} ${sobrenome}`
-        },
+        altura: a,
+        peso: p,
 
         fala(assunto) {
             return `${this.nome} fala ${assunto}`
         },
-        altura: a,
-        peso: p,
 
-        // Getter - para obtermos apenas o valor de imc utilizando apenas a notação de atributo (.)
+        // Método que retorna nome completo da pessoa. Como só obtenho o valor, ele pode ser um Getter. Isso vai fazer o método fingir ser um atributo.
+        get nomeCompleto() {
+            return `${this.nome} ${this.sobrenome}`
+        },
+
+
+        // Getter - para obtermos apenas o valor de imc utilizando a notação de ponto (.)
         get imc() { // Utilizando a palavra get, imc agora vai fingir que é um atributo do objeto
             const indice = this.peso / (this.altura ** 2)
             return indice.toFixed(2)
