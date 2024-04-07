@@ -3,4 +3,4 @@
 // Isso funciona com todos os tipos de dados: booleanos, números, strings, etc
 
 const nomes = new Array('Eduardo', 'Maria', 'Joana')
-console.log(nomes)
+console.log(nomes) // [ 'Eduardo', 'Maria', 'Joana' ]

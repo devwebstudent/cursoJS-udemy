@@ -12,4 +12,4 @@ console.log(novo) // [ 'Maria', 'Joana' ]
 // Também podemos utilizar números negativos no slice
 // Fatiando começando do índice 0 e remover -1 do final (Rosana)
 const novo2 = nomes.slice(0, -1)
-console.log(novo2)
+console.log(novo2) // [ 'Eduardo', 'Maria', 'Joana', 'Wallace' ]
