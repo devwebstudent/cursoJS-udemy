@@ -4,10 +4,10 @@
 
     function relogio() {
         let hora = new Date()
-        return hora.toLocaleTimeString('pt-br')        
+        return hora.toLocaleTimeString('pt-br')
     }
 
-    setInterval(() => {        
+    setInterval(() => {
         h1.innerHTML = `${relogio()}`
     }, 1000)
 })()
