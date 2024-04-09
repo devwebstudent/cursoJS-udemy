@@ -10,5 +10,4 @@
     setInterval(() => {        
         h1.innerHTML = `${relogio()}`
     }, 1000)
-}
-)()
+})()
