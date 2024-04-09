@@ -16,7 +16,7 @@ const numerosEmDobro = numeros.map((valor) => {
 })
 
 
-// Vai retornar os números dobrados - vamos ter um novo array com o dobro dos valores do array original
+// Vai retornar os números dobrados - vamos ter um novo array com os números dobrados
 console.log(numerosEmDobro) // [ 10, 100, 160,  2,  4,  6, 10,  16,  14, 22, 30, 44, 54]
 
 
