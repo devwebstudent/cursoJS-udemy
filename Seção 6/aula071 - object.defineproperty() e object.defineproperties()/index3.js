@@ -23,6 +23,7 @@ function Produto(nome, preco, estoque) {
             writable: true,
             configurable: true
         },
+        
         preco: {
             enumerable: true,
             value: preco, // valor vindo do parâmetro

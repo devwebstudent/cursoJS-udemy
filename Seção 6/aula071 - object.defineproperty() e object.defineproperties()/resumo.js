@@ -1,1 +1,1 @@
-// A única diferença entre Object.defineProperty() e Object.defineProperties() é que um para uma única chave e o outro é para várias chaves
+// A única diferença entre Object.defineProperty() e Object.defineProperties() é que um é para uma única chave e o outro é para várias chaves

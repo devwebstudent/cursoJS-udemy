@@ -4,6 +4,8 @@
 const pessoa1 = new Object();
 pessoa1.nome = 'Luiz'
 pessoa1.sobrenome = 'Otávio'
-delete pessoa1.nome
 
+console.log(pessoa1)
+
+delete pessoa1.nome
 console.log(pessoa1) // { sobrenome: 'Otávio' }

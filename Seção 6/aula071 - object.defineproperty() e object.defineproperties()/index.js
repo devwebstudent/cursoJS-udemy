@@ -18,8 +18,8 @@ function Produto(nome, preco, estoque) {
     this.nome = nome; // Variável púlbica, podemos acessar de fora do objeto
     this.preco = preco; // Variável pública    
 
-    // Como colocamos configurable como 'true', quer dizer que podemos reconfigurar a propriedade.
-    // Como aqui writable é 'false', o valor vai continuar como 3 e não vai ser alterado para 5000. writable: false -> a propriedade não pode ser alterada
+    // Quando colocamos configurable como 'true', quer dizer que podemos reconfigurar a propriedade.
+    // Quando writable é 'false', o valor vai continuar como 3 e não vai ser alterado para 5000. writable: false -> a propriedade não pode ser alterada
     Object.defineProperty(this, 'estoque', {
         enumerable: true,
         value: estoque,        
