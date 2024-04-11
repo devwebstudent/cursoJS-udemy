@@ -44,6 +44,6 @@ function Produto(nome, preco, estoque) {
 
 const p1 = new Produto('Camiseta', 20, 3)
 
-p1.estoque = '500' // Esse valor vai ser passado pro parâmetro da função do setter
+p1.estoque = 500 // Esse valor vai ser passado pro parâmetro da função do setter
 
 console.log(p1.estoque) // Pra ver o real valor do estoque // Resultado: 500

@@ -10,7 +10,7 @@ Object.assign(destino, objetoQueQueroCopiar) -> serve para copiar um objeto; cop
 // Já vimos
 Object.keys -> retorna as propriedades que tem no objeto dentro de um array
 Object.freeze -> congela o objeto, para que ele não possa ser alterado
-Object.defineProperty -> define uma propriedade
+Object.defineProperty -> define uma propriedade, modifica configurações de determinada propriedade
 Object.defineProperties -> define várias propriedades
 
 */
